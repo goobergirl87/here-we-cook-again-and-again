@@ -140,3 +140,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
+
+h1 {
+  font-family: sans-serif;
+}
