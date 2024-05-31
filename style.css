@@ -186,4 +186,5 @@ form {
 .formbox {
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
 }
