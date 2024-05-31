@@ -177,4 +177,5 @@ main {
 }
 
 form {
+  display: flex;
 }
