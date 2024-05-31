@@ -161,4 +161,5 @@ h1 {
 
 .search-wrapper {
   display: flex;
+  justify-content: center;
 }
