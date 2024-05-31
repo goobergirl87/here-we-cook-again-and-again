@@ -163,4 +163,5 @@ h1 {
   display: flex;
   justify-content: center;
   align-self: center;
+  margin-right: 30px;
 }
