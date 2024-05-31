@@ -152,4 +152,5 @@ h1 {
 .search-wrapper input {
   width: 50%;
   min-width: 200px;
+  padding: 8px 24px;
 }
