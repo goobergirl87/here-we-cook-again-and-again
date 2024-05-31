@@ -184,4 +184,5 @@ form {
 }
 
 .formbox {
+  display: flex;
 }
