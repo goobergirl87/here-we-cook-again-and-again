@@ -187,4 +187,5 @@ form {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
+  font-size: 15px;
 }
