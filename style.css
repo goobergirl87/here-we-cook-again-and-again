@@ -185,4 +185,5 @@ form {
 
 .formbox {
   display: flex;
+  flex-direction: column;
 }
