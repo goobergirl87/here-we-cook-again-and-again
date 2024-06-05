@@ -214,4 +214,5 @@ select {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  border-top: 2px solid black;
 }
