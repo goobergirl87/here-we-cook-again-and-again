@@ -22,3 +22,5 @@ class Recipe {
     this.prep = prep;
   }
 }
+
+class Library {}
