@@ -13,4 +13,5 @@ const searchInput = document.querySelector("[data-search]");
 
 class Recipe {
   date = new Date();
+  constructor() {}
 }
