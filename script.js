@@ -16,5 +16,6 @@ class Recipe {
   constructor(title, time, kind, woke, ingredients, prep) {
     this.title = title;
     this.time = time;
+    this.kind = kind;
   }
 }
