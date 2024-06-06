@@ -23,4 +23,6 @@ class Recipe {
   }
 }
 
-class Library {}
+class Library {
+  recipeLibrary = [];
+}
