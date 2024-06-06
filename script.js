@@ -11,4 +11,6 @@ const inputPrep = document.querySelector("#prep");
 const toggleFormButton = document.querySelector(".toggle-form");
 const searchInput = document.querySelector("[data-search]");
 
-class Recipe {}
+class Recipe {
+  date = new Date();
+}
