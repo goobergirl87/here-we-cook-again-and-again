@@ -13,5 +13,7 @@ const searchInput = document.querySelector("[data-search]");
 
 class Recipe {
   date = new Date();
-  constructor(title, time, kind, woke, ingredients, prep) {}
+  constructor(title, time, kind, woke, ingredients, prep) {
+    this.title = title;
+  }
 }
