@@ -19,5 +19,6 @@ class Recipe {
     this.kind = kind;
     this.woke = woke;
     this.ingredients = ingredients;
+    this.prep = prep;
   }
 }
