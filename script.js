@@ -17,5 +17,6 @@ class Recipe {
     this.title = title;
     this.time = time;
     this.kind = kind;
+    this.woke = woke;
   }
 }
