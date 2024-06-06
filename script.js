@@ -5,3 +5,4 @@ const form = document.querySelector(".form");
 const inputTitle = document.querySelector("#title");
 const inputTime = document.querySelector("#time");
 const inputKind = document.querySelector("#kind");
+const inputWoke = document.querySelector("#woke");
