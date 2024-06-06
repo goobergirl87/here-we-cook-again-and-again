@@ -18,5 +18,6 @@ class Recipe {
     this.time = time;
     this.kind = kind;
     this.woke = woke;
+    this.ingredients = ingredients;
   }
 }
