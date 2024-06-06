@@ -7,3 +7,4 @@ const inputTime = document.querySelector("#time");
 const inputKind = document.querySelector("#kind");
 const inputWoke = document.querySelector("#woke");
 const inputIngredients = document.querySelector("#ingredients");
+const inputPrep = document.querySelector("#prep");
