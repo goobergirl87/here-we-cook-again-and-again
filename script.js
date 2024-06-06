@@ -15,5 +15,6 @@ class Recipe {
   date = new Date();
   constructor(title, time, kind, woke, ingredients, prep) {
     this.title = title;
+    this.time = time;
   }
 }
