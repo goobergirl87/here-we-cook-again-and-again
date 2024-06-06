@@ -8,3 +8,4 @@ const inputKind = document.querySelector("#kind");
 const inputWoke = document.querySelector("#woke");
 const inputIngredients = document.querySelector("#ingredients");
 const inputPrep = document.querySelector("#prep");
+const toggleFormButton = document.querySelector(".toggle-form");
