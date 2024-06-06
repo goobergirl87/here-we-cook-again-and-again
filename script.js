@@ -10,3 +10,5 @@ const inputIngredients = document.querySelector("#ingredients");
 const inputPrep = document.querySelector("#prep");
 const toggleFormButton = document.querySelector(".toggle-form");
 const searchInput = document.querySelector("[data-search]");
+
+class Recipe {}
