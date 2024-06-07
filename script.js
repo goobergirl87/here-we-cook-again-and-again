@@ -39,5 +39,6 @@ class Library {
     const prep = inputPrep.value;
 
     let recipe;
+    recipe = new Recipe(title, time, kind, woke, ingredients, prep);
   }
 }
