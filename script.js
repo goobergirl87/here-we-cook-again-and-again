@@ -37,5 +37,7 @@ class Library {
     const woke = inputWoke.value;
     const ingredients = inputIngredients.value;
     const prep = inputPrep.value;
+
+    let recipe;
   }
 }
