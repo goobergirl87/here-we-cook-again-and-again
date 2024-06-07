@@ -51,6 +51,7 @@ class Library {
     let html = `
       <div class="recipe-div">
           <h3 class="title">${recipe.title}</h3>
+          <h3 class="time">${recipe.time}</h3>
       </div>`;
   }
 }
