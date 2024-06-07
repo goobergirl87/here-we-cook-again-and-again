@@ -33,5 +33,6 @@ class Library {
 
     const title = inputTitle.value;
     const time = inputTime.value;
+    const kind = inputKind.value;
   }
 }
