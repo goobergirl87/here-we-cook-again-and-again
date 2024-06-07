@@ -54,3 +54,5 @@ function showHideForm() {
       ? "Hide form"
       : "Add a new recipe";
 }
+
+toggleFormButton.addEventListener("click", showHideForm);
