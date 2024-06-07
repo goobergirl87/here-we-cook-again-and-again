@@ -35,5 +35,6 @@ class Library {
     const time = inputTime.value;
     const kind = inputKind.value;
     const woke = inputWoke.value;
+    const ingredients = inputIngredients.value;
   }
 }
