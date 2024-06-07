@@ -47,7 +47,9 @@ class Library {
     this.recipeLibrary.push(recipe);
   }
 
-  renderRecipe(recipe) {}
+  renderRecipe(recipe) {
+    let html = ``;
+  }
 }
 
 function showHideForm() {
