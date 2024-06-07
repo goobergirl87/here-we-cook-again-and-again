@@ -56,3 +56,5 @@ function showHideForm() {
 }
 
 toggleFormButton.addEventListener("click", showHideForm);
+
+const library = new Library();
