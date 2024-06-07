@@ -47,4 +47,6 @@ class Library {
   }
 }
 
-function showHideForm() {}
+function showHideForm() {
+  form.classList.toggle("hidden");
+}
