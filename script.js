@@ -28,5 +28,5 @@ class Library {
 
   constructor() {}
 
-  newRecipe() {}
+  newRecipe(e) {}
 }
