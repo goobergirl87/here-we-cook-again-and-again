@@ -48,7 +48,10 @@ class Library {
   }
 
   renderRecipe(recipe) {
-    let html = ``;
+    let html = `
+      <div class="recipe-div">
+          <h3 class="title">${recipe.title}</h3>
+      </div>`;
   }
 }
 
