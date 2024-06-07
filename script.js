@@ -46,3 +46,5 @@ class Library {
     this.recipeLibrary.push(recipe);
   }
 }
+
+function showHideForm() {}
