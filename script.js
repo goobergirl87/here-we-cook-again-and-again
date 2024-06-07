@@ -49,4 +49,8 @@ class Library {
 
 function showHideForm() {
   form.classList.toggle("hidden");
+  toggleFormButton.textContent =
+    toggleFormButton.textContent === "Add a new recipe"
+      ? "Hide form"
+      : "Add a new recipe";
 }
