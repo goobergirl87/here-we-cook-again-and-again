@@ -57,7 +57,7 @@ class Library {
           <p class="ingr">Ingredients</p>
               <div class="content-item">${recipe.ingredients}</div>
           <p class="prep">Preparation</p>
-              <div class="content-item"></div>
+              <div class="content-item">${recipe.prep}</div>
       </card>
       `;
   }
