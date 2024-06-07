@@ -28,5 +28,7 @@ class Library {
 
   constructor() {}
 
-  newRecipe(e) {}
+  newRecipe(e) {
+    e.preventDefault();
+  }
 }
