@@ -27,4 +27,6 @@ class Library {
   recipeLibrary = [];
 
   constructor() {}
+
+  newRecipe() {}
 }
