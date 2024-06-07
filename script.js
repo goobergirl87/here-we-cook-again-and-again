@@ -52,8 +52,12 @@ class Library {
       <div class="recipe-div">
           <h3 class="title">${recipe.title}</h3>
           <h3 class="time">${recipe.time}</h3>
-      </div>`;
+      </div>
       <card class="content">
+        <p class="ingr">Ingredients</p>
+        <p class="prep">Preparation</p>
+      </card>
+      `;
   }
 }
 
