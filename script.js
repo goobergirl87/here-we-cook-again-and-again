@@ -30,5 +30,7 @@ class Library {
 
   newRecipe(e) {
     e.preventDefault();
+
+    const title = inputTitle.value;
   }
 }
