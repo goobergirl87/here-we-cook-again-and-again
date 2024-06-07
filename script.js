@@ -40,5 +40,7 @@ class Library {
 
     let recipe;
     recipe = new Recipe(title, time, kind, woke, ingredients, prep);
+
+    this.recipeLibrary.push(recipe);
   }
 }
