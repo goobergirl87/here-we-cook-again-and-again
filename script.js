@@ -32,5 +32,6 @@ class Library {
     e.preventDefault();
 
     const title = inputTitle.value;
+    const time = inputTime.value;
   }
 }
