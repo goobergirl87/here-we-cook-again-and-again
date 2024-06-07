@@ -26,7 +26,9 @@ class Recipe {
 class Library {
   recipeLibrary = [];
 
-  constructor() {}
+  constructor() {
+    form.addEventListener("submit", this.newRecipe.bind(this));
+  }
 
   newRecipe(e) {
     e.preventDefault();
