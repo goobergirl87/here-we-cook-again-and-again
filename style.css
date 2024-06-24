@@ -233,3 +233,6 @@ select {
   cursor: pointer;
   border-bottom: 2px solid black;
 }
+
+.recipe-div::after {
+}
