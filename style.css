@@ -228,4 +228,5 @@ select {
 .recipe-div {
   display: flex;
   align-items: baseline;
+  cursor: pointer;
 }
