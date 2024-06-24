@@ -59,7 +59,9 @@ class Library {
       </div>
       <card class="content">
           <p class="ingr">Ingredients</p>
-              <div class="content-item">${recipe.ingredients}</div>
+              <div class="content-item">${ingredientsFormatted(
+                recipe.ingredients
+              )}</div>
           <p class="prep">Preparation</p>
               <div class="content-item">${recipe.prep}</div>
       </card>
