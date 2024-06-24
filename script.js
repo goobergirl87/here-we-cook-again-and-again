@@ -56,6 +56,10 @@ class Library {
     let prepFormatted = function () {
       let prepForm = recipe.prep;
       let finalPrep = [];
+
+      prepForm.split("; ").forEach((element, index) => {
+        finalPrep.push(`${index + 1}. ${element}`);
+      });
     };
     let html = `
       <div class="recipe-div">
