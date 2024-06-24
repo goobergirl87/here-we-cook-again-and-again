@@ -48,7 +48,9 @@ class Library {
   }
 
   renderRecipe(recipe) {
-    let ingredientsFormatted = function () {};
+    let ingredientsFormatted = function () {
+      let ingr = recipe.ingredients;
+    };
     let html = `
       <div class="recipe-div">
           <h3 class="title">${recipe.title}</h3>
