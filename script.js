@@ -112,6 +112,11 @@ class Library {
       content.style.display = "block";
     }
   }
+
+  reset() {
+    localStorage.removeItem("recipes");
+    location.reload();
+  }
 }
 
 function showHideForm() {
