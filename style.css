@@ -229,5 +229,6 @@ select {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  width: 100%;
   cursor: pointer;
 }
