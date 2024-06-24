@@ -88,6 +88,18 @@ class Library {
     localStorage.setItem("recipes", JSON.stringify(this.recipeLibrary));
   }
 
+  getLocalStorage() {
+    const data = JSON.parse(localStorage.getItem("recipes"));
+
+    if (!data) return;
+
+    this.recipeLibrary = data;
+
+    this.recipeLibrary.forEach((rec) => {
+      this.renderRecipe(rec);
+    });
+  }
+
   openRecipe(e) {
     let recipeDiv = e.target.closest(".recipe-div");
     let content = e.target.closest(".recipe-div").nextElementSibling;
