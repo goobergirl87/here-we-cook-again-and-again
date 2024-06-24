@@ -255,3 +255,8 @@ recipe-div:hover {
   font-size: 20px;
   font-weight: bold;
 }
+
+.time {
+  font-family: sans-serif;
+  font-size: 15px;
+}
