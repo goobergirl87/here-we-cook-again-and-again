@@ -55,6 +55,7 @@ class Library {
 
     let prepFormatted = function () {
       let prepForm = recipe.prep;
+      let finalPrep = [];
     };
     let html = `
       <div class="recipe-div">
