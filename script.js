@@ -84,6 +84,7 @@ class Library {
   openRecipe(e) {
     let recipeDiv = e.target.closest(".recipe-div");
     let content = e.target.closest(".recipe-div").nextElementSibling;
+    recipeDiv.classList.toggle("active");
   }
 }
 
