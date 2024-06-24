@@ -80,6 +80,8 @@ class Library {
 
     overview.insertAdjacentHTML("afterbegin", html);
   }
+
+  openRecipe(e) {}
 }
 
 function showHideForm() {
