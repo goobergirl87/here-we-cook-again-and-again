@@ -238,4 +238,5 @@ select {
   content: "\02795";
   font-size: 13px;
   margin-left: 5px;
+  display: flex;
 }
