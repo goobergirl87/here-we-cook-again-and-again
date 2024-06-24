@@ -85,6 +85,11 @@ class Library {
     let recipeDiv = e.target.closest(".recipe-div");
     let content = e.target.closest(".recipe-div").nextElementSibling;
     recipeDiv.classList.toggle("active");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
   }
 }
 
