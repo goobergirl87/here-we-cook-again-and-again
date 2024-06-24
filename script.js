@@ -29,6 +29,8 @@ class Library {
 
   constructor() {
     form.addEventListener("submit", this.newRecipe.bind(this));
+
+    this.getLocalStorage();
   }
 
   newRecipe(e) {
