@@ -81,6 +81,7 @@ class Library {
     overview.insertAdjacentHTML("afterbegin", html);
 
     let coll = document.querySelector(".recipe-div");
+    coll.addEventListener("click", this.openRecipe.bind(this));
   }
 
   openRecipe(e) {
