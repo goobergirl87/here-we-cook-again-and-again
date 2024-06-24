@@ -113,7 +113,9 @@ class Library {
     }
   }
 
-  searchRecipe(e) {}
+  searchRecipe(e) {
+    const allRecDiv = document.querySelectorAll(".title");
+  }
 
   reset() {
     localStorage.removeItem("recipes");
