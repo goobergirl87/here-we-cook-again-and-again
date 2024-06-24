@@ -279,3 +279,11 @@ recipe-div:hover {
   font-size: 15px;
   font-weight: bold;
 }
+
+.content-item {
+  padding: 2px 0px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 10px 0px 20px 10px;
+}
