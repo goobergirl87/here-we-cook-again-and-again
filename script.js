@@ -50,6 +50,7 @@ class Library {
   renderRecipe(recipe) {
     let ingredientsFormatted = function () {
       let ingr = recipe.ingredients;
+      return ingr.replaceAll("; ", "<br>");
     };
     let html = `
       <div class="recipe-div">
