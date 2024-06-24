@@ -244,3 +244,8 @@ select {
 .active::after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+.active,
+recipe-div:hover {
+  border-bottom: 0px;
+}
