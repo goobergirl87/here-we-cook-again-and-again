@@ -81,7 +81,9 @@ class Library {
     overview.insertAdjacentHTML("afterbegin", html);
   }
 
-  openRecipe(e) {}
+  openRecipe(e) {
+    let recipeDiv = e.target.closest(".recipe-div");
+  }
 }
 
 function showHideForm() {
