@@ -84,6 +84,10 @@ class Library {
     coll.addEventListener("click", this.openRecipe.bind(this));
   }
 
+  setLocalStorage() {
+    localStorage.setItem("recipes", JSON.stringify(this.recipeLibrary));
+  }
+
   openRecipe(e) {
     let recipeDiv = e.target.closest(".recipe-div");
     let content = e.target.closest(".recipe-div").nextElementSibling;
