@@ -113,6 +113,8 @@ class Library {
     }
   }
 
+  searchRecipe(e) {}
+
   reset() {
     localStorage.removeItem("recipes");
     location.reload();
