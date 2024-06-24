@@ -249,3 +249,9 @@ select {
 recipe-div:hover {
   border-bottom: 0px;
 }
+
+.title {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
