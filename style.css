@@ -265,3 +265,10 @@ recipe-div:hover {
   font-family: sans-serif;
   font-size: 15px;
 }
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
