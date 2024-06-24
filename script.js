@@ -60,6 +60,8 @@ class Library {
       prepForm.split("; ").forEach((element, index) => {
         finalPrep.push(`${index + 1}. ${element}`);
       });
+
+      return finalPrep.join("<br>");
     };
     let html = `
       <div class="recipe-div">
