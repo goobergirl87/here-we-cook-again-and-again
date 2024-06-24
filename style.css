@@ -240,3 +240,7 @@ select {
   margin-left: 5px;
   display: flex;
 }
+
+.active::after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
