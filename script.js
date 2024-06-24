@@ -53,7 +53,9 @@ class Library {
       return ingr.replaceAll("; ", "<br>");
     };
 
-    let prepFormatted = function () {};
+    let prepFormatted = function () {
+      let prepForm = recipe.prep;
+    };
     let html = `
       <div class="recipe-div">
           <h3 class="title">${recipe.title}</h3>
