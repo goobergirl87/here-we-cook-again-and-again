@@ -226,4 +226,5 @@ select {
 }
 
 .recipe-div {
+  display: flex;
 }
