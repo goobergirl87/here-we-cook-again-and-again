@@ -116,6 +116,12 @@ class Library {
   searchRecipe(e) {
     const allRecDiv = document.querySelectorAll(".title");
     const value = e.target.value.toLowerCase();
+
+    allRecDiv.forEach((rec) => {
+      const isVisible = // isVisible is true, if it includes the value
+        rec.innerHTML.toLowerCase().includes(value);
+      rec.closest(".recipe-div").classList.toggle("hide", !isVisible);
+    });
   }
 
   reset() {
