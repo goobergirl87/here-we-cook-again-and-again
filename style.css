@@ -235,4 +235,5 @@ select {
 }
 
 .recipe-div::after {
+  content: "\02795";
 }
