@@ -237,4 +237,5 @@ select {
 .recipe-div::after {
   content: "\02795";
   font-size: 13px;
+  margin-left: 5px;
 }
