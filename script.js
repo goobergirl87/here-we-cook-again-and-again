@@ -29,6 +29,7 @@ class Library {
 
   constructor() {
     form.addEventListener("submit", this.newRecipe.bind(this));
+    searchInput.addEventListener("input", this.searchRecipe.bind(this));
 
     this.getLocalStorage();
   }
