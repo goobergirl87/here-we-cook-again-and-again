@@ -228,5 +228,6 @@ select {
 .recipe-div {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
   cursor: pointer;
 }
