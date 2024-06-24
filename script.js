@@ -79,6 +79,8 @@ class Library {
       `;
 
     overview.insertAdjacentHTML("afterbegin", html);
+
+    let coll = document.querySelector(".recipe-div");
   }
 
   openRecipe(e) {
