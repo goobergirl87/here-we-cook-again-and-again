@@ -115,6 +115,7 @@ class Library {
 
   searchRecipe(e) {
     const allRecDiv = document.querySelectorAll(".title");
+    const value = e.target.value.toLowerCase();
   }
 
   reset() {
