@@ -74,7 +74,7 @@ class Library {
                 recipe.ingredients
               )}</div>
           <p class="prep">Preparation</p>
-              <div class="content-item">${recipe.prep}</div>
+              <div class="content-item">${prepFormatted(recipe.prep)}</div>
       </card>
       `;
 
